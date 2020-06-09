@@ -29,6 +29,6 @@ public class TestStream01 {
         System.out.println(JSON.toJSONString(parse));
         String format = simpleDateFormat.format(parse);
         System.out.println(format);
-
+        System.out.println();
     }
 }
